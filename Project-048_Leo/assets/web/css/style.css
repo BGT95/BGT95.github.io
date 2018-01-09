@@ -1,0 +1,343 @@
+body {
+    font-family: "SegoeWPLight", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    background-color: #fff;
+    position: relative
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+.header {
+    padding-top: 56px;
+    padding-bottom: 10px;
+    background: url(../img/header-bg.png) no-repeat center
+}
+
+.header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.header-top .logo {
+    display: block;
+    font-size: 82.63px;
+    font-family: "MrsEavesItalic", sans-serif;
+    color: rgba(255, 255, 255, 0.678);
+    text-align: justifyLeft;
+    -moz-transform: matrix(1.43428117, 0, 0, 1.43428117, 0, 0);
+    -webkit-transform: matrix(1.43428117, 0, 0, 1.43428117, 0, 0);
+    -ms-transform: matrix(1.43428117, 0, 0, 1.43428117, 0, 0)
+}
+
+.header-nav {
+    margin: 0 -10px
+}
+
+.header-nav__links {
+    margin: 0 10px;
+    color: #fff;
+    font-family: "SegoeWPLight", sans-serif;
+    font-size: 23px
+}
+
+.header-bottom {
+    width: 100%;
+    max-width: 1200px;
+    margin: 58px auto -80px
+}
+
+.header .swiper-container {
+    width: 100%
+}
+
+.header .swiper-wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+.header .swiper-slide {
+    max-width: 900px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.header .swiper-slide__img {
+    margin: 0 30px
+}
+
+.header .swiper-slide__text {
+    padding: 54px 0 20px;
+    width: 100%;
+    text-align: left
+}
+
+.header .swiper-slide__caption {
+    font-size: 49px;
+    font-weight: bold
+}
+
+.header .swiper-slide__description {
+    margin-top: 20px;
+    font-size: 35px
+}
+
+.header .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons/arrow.png) no-repeat center
+}
+
+.header .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons/arrow.png) no-repeat center;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.header .demo {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 7px 19px;
+    border: 4px solid rgba(0, 0, 0, 0.5);
+    background-color: #175b3b;
+    font-size: 23px;
+    color: #fff
+}
+
+.tabs {
+    padding-top: 70px
+}
+
+.tabs-container input {
+    display: none
+}
+
+.tabs-container input:checked + label {
+    border: 1px solid #676666;
+    border-bottom-color: #fff;
+    font-weight: bold
+}
+
+.tabs-container input[id=tab-1]:checked ~ .tab-body .tab-1,
+.tabs-container input[id=tab-2]:checked ~ .tab-body .tab-2,
+.tabs-container input[id=tab-3]:checked ~ .tab-body .tab-3,
+.tabs-container input[id=tab-4]:checked ~ .tab-body .tab-4 {
+    display: block
+}
+
+.tabs-container label {
+    display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 10px 20px 50px;
+    font-size: 27px;
+    color: #676666;
+    line-height: 1.2;
+    text-align: center
+}
+
+.tabs-container label img {
+    display: block;
+    margin: 0 auto 21px
+}
+
+.tabs .tab-body {
+    width: 100%;
+    border: 1px solid #676666;
+    margin-top: -1px;
+    padding: 57px
+}
+
+.tabs .tab-body p {
+    color: #676666
+}
+
+.tabs .tab-caption {
+    font-size: 39px;
+    color: #4f4f4f;
+    margin-bottom: 28px
+}
+
+.tabs .tab-1,
+.tabs .tab-2,
+.tabs .tab-3,
+.tabs .tab-4 {
+    display: none
+}
+
+.tabs .tab-2 img {
+    display: block;
+    margin: 0 auto
+}
+
+.choose {
+    padding: 22px 0 70px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.choose-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.choose-caption {
+    font-size: 32.63px;
+    font-family: "UniversBoldItalic", sans-serif;
+    color: #4f4f4f;
+    line-height: 1.2;
+    text-align: left;
+    margin: 30px 0 25px
+}
+
+.choose-item {
+    padding-left: 30px;
+    background: url(../img/icons/check.png) no-repeat left center;
+    font-size: 16px;
+    font-family: "UniversBoldItalic", sans-serif;
+    color: #8a8888;
+    line-height: 2.375;
+    text-align: left
+}
+
+.contacts {
+    padding: 23px 0 25px
+}
+
+.contacts-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.contacts form {
+    width: 100%;
+    max-width: 46%;
+    padding: 15px
+}
+
+.contacts form h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center
+}
+
+.contacts form input {
+    margin: 0 5px;
+    padding: 5px 7px;
+    font-size: 16px;
+    color: #4f4f4f
+}
+
+.contacts form button {
+    margin: 0 5px;
+    padding: 5px 7px;
+    font-size: 16px
+}
+
+.contacts .login {
+    background-color: #ff6633
+}
+
+.contacts .login input {
+    max-width: 150px
+}
+
+.contacts .subscribe {
+    background-color: #01d4f3
+}
+
+.contacts .input-wrap {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.footer {
+    padding: 34px 54px;
+    background-color: #2c2b2d
+}
+
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.footer-caption {
+    font-size: 22px;
+    margin-bottom: 17px
+}
+
+.footer-nav {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 10px
+}
+
+.footer-nav__link {
+    display: block;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.692
+}
+
+.footer-logo {
+    margin-top: 32px;
+    margin-left: 20px;
+    font-size: 82.63px;
+    font-family: "MrsEavesItalic", sans-serif;
+    color: rgba(255, 255, 255, 0.22)
+}
+
+.footer-content__text {
+    max-width: 320px;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.692
+}
+
+.footer-content__bottom {
+    max-width: 150px;
+    margin-top: 11px;
+    font-size: 13px;
+    font-family: "Arial";
+    color: rgba(255, 255, 255, 0.659);
+    font-weight: bold;
+    line-height: 1.692
+}
